@@ -2,7 +2,11 @@ function Navigation() {
   return (
     <nav>
       <div className="personal">
-        Calvin Xu
+        <span>Calvin Xu</span>
+        <span id="contact">
+          <a href="https://github.com/calvin-xu0"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/in/calvin-xu0"><i class="fab fa-linkedin"></i></a>
+        </span>
       </div>  
 
       <div className="pages">

@@ -1,11 +1,13 @@
 import About from './about';
+import Research from './research'
 
 function Main() {
   return (
     <main>
       <div className="carousel">
-        <div class="path">
+        <div class="carousel-viewport">
           <About />
+          <Research />
         </div>
       </div>
     </main>

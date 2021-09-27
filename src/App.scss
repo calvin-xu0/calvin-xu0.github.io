@@ -6,50 +6,79 @@ html {
 
 nav {
   background-color: silver;
-  padding: 1em 0.5em;
-  display:flex;
+  padding: 1em 0;
+  display: flex;
   justify-content: space-between;
   align-items: center;
+  
+  > * {
+    padding: 0 0.5em;
+    width: 33%;
+  }
 
   .personal {
     > * {
       margin: 0 0.5em;
     }
     
-    #contact > * {
-      margin: 0em 0.3em;
-      color: black;
+    #contact {
+      * {
+        margin: 0em 0.3em;
+        color: black;
+      }
     }
   }
 
   .pages {
+    padding: 0 0;
+    height: 100%;
     width: 50%;
     display: flex;
     justify-content: center;
 
     > * {
       width: 33%;
-      padding: 0 1em;
+      height: 100%;
+      // padding: 0 1em;
       display: flex;
       justify-content: center;
+      transition: all 0.25s ease-in-out;
+    }
+
+    > *:hover {
+      background-color: #EFEFEF;
     }
   }
 }
+
+// main {
+//   height: 100vh;
+// }
 
 .carousel {
   position: relative;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  // overflow: hidden;
   display: flex;
   justify-content: center;
-
-  .path {
-    width: 70%;
-
-    #about {
+  
+  .carousel-viewport {
+    width: 100%;
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    
+    .page {
+      flex: 0 0 70%;
+      padding: 0 15%;
       display: flex;
       justify-content: space-around;
+    }
+
+    #about {
 
       > * {
         padding: 0.5em 0.5em;

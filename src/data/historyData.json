@@ -9,14 +9,27 @@
       "researchTopic": "Fuel Cell Catalyst Longevity",
       "institution": "University of Waterloo",
       "group": "Applied Nanomaterials and Clean Energy Laboratory",
-      "pi": "Dr. Zhongwei Chen"
+      "pi": "Dr. Zhongwei Chen",
+      "summaryImage": {"filename": "hello.png", "caption": "caption"},
+      "summaryText": [
+        "Hydrogen fuel cells offer an avenue for emission-free energy generation via electrochemical reactions. Electrochemical energy generation boasts greater efficiencies than the hydrocarbon combustion processes widely used today, and the only byproduct is water.",
+        "Polymer electrolyte membrane fuel cells (PEMFCs) are particularly attractive due to their relatively low operating temperatures. However, fuel cells currently rely on catalysts made of platinum supported by carbon black. Over time, these expensive catalysts degrade from continued use.",
+        "ANCEL had previously demonstrated the use of sulfur-doped graphene to mitigate this degradation for pure Pt crystals as compared to traditional carbon supports. While the crystal facets of pure Pt can be tailored for maximum effect, literature has also demonstrated that Pt-alloy nanoparticles provide high catalytic capabilities over Pt alone through phenomena such as lattice strain effects.",
+        "My research focused on the previously unknown compatibility of sulfur-doped graphene supports with heterogenous Pt nanoparticles and the effects on catalytic performance as well as catalyst durability for practical long-term use."
+      ],
+      "publication": {"doi": "10.1039/c6ra19924k", "citation": ""}
     },
     {
       "application": "Medicine",
       "researchTopic": "Medical Adhesives",
       "institution": "Harvard-MIT Health Sciences and Technology",
       "group": "Karp Lab",
-      "pi": "Dr. Jeffrey Karp"
+      "pi": "Dr. Jeffrey Karp",
+      "summaryImage": {"filename": "hello.png", "caption": "caption"},
+      "summaryText": [
+        ""
+      ],
+      "publication": {"doi": "10.1002/adhm.201570092", "citation": "Y. Lee, C. Xu, M. Sebastin, A. Lee, N. Holwell, <mark>C. Xu</mark>, D. Miranda Nieves, L. Mu, R. S. Langer, C. Lin, and J. M. Karp, “Bioinspired Nanoparticulate Medical Glues for Minimally Invasive Tissue Repair,” Adv. Healthc. Mater., vol. 4, no. 16, pp. 2587–2596, 2015."}
     }
   ]
 }

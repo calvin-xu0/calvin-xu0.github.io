@@ -96,17 +96,46 @@ nav {
       .content {
         width: 70%;
         overflow-y: scroll;
+        scroll-behavior: smooth;
+        // scroll-snap-type: y mandatory;
+        scroll-padding: 2em;
         scrollbar-width: none;
 
         article {
-          min-height: 90vh;
+          min-height: 50vh;
+          padding: 0.5em 0;
+          // scroll-snap-align: start end;
+
+          header {
+            border-bottom: solid silver;
+
+            * {
+              padding: 0.1em 0;
+              display: flex;
+              justify-content: space-between;
+            }
+          }
+
+          .doi {
+            background-color: silver;
+
+            u {
+              text-decoration: underline dotted;
+              transition: all 0.25s ease-in-out;
+            }
+            u:hover {
+              color: blue;
+            }
+          }
         }
       }
     }
 
     #about {
       img {
-        height: 150px;
+        max-width: 80%;
+        height: auto;
+
         aspect-ratio: auto 1 / 1;
         border-radius: 50%;
         margin: 3em 0em;
@@ -126,42 +155,3 @@ nav {
     }
   }
 }
-
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */

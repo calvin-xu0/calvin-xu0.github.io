@@ -1,7 +1,9 @@
-function About() {
+const About = () => {
   return (
-    <div className="page slide" id="about">
-      <img alt="Profile picture" src="/t_l.jpeg" />
+    <div className="page" id="about">
+      <aside>
+        <img alt="Profile" src="/t_l.jpeg" />
+      </aside>
 
       <div className="content">
         <section>

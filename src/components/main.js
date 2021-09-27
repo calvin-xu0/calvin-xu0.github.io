@@ -1,13 +1,15 @@
 import About from './about';
-import Research from './research'
+import ResearchContainer from './researchContainer'
+const data = require('../data/historyData.json');
 
-function Main() {
+const Main = () => {
+  const researchData = data.research;
   return (
     <main>
       <div className="carousel">
-        <div class="carousel-viewport">
+        <div className="carousel-viewport">
           <About />
-          <Research />
+          <ResearchContainer { ...{researchData} }/>
         </div>
       </div>
     </main>

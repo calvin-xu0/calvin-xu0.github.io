@@ -4,9 +4,13 @@ html {
   background-color: #EEE;
 }
 
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 nav {
   background-color: silver;
-  // border-bottom: thick outset rgba(95%, 95%, 95%, .25);
   box-sizing: border-box;
   height: 3em;
   display: flex;
@@ -56,10 +60,6 @@ nav {
       background-color: #DEDEDE;
     }
 
-    a {
-      color: inherit;
-      text-decoration: inherit;
-    }
   }
 }
 
@@ -87,14 +87,24 @@ nav {
       padding: 0 15%;
       display: flex;
       justify-content: space-around;
-    }
-
-    #about {
+      height: 90vh;
 
       > * {
         padding: 0.5em 0.5em;
       }
 
+      .content {
+        width: 70%;
+        overflow-y: scroll;
+        scrollbar-width: none;
+
+        article {
+          min-height: 90vh;
+        }
+      }
+    }
+
+    #about {
       img {
         height: 150px;
         aspect-ratio: auto 1 / 1;
@@ -103,7 +113,6 @@ nav {
       }
 
       .content {
-        width: 70%;
         #education {
           li::marker {
             font-family: FontAwesome;
@@ -111,9 +120,6 @@ nav {
           }
           li {
             padding: 0.2em 0.5em;
-            p {
-              filter: brightness(black, 0.1);
-            }
           }
         }
       }

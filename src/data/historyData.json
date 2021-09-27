@@ -1,0 +1,22 @@
+{
+  "software": [
+
+  ],
+
+  "research": [
+    {
+      "application": "Energy",
+      "researchTopic": "Fuel Cell Catalyst Longevity",
+      "institution": "University of Waterloo",
+      "group": "Applied Nanomaterials and Clean Energy Laboratory",
+      "pi": "Dr. Zhongwei Chen"
+    },
+    {
+      "application": "Medicine",
+      "researchTopic": "Medical Adhesives",
+      "institution": "Harvard-MIT Health Sciences and Technology",
+      "group": "Karp Lab",
+      "pi": "Dr. Jeffrey Karp"
+    }
+  ]
+}

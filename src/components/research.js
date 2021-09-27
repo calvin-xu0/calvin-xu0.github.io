@@ -1,18 +1,14 @@
-function Research(props) {
-  return (
-    <div className="page slide" id="research">
-      <aside>
-        <h2>One</h2>
-        <h2>Two</h2>
-      </aside>
+const Research = data => {
+  const { application, researchTopic, institution, group, pi } = data;
 
-      <section>
-        <article>Section One</article>
-        <article>Section Two</article>
-      </section>
-    </div>
+  return (
+    <article id={pi.split(' ').slice(-1)}>
+      <h1>{application}</h1>
+      <h4>{researchTopic}</h4>
+      <h4>{institution}</h4>
+      <h4>{group} - (Principal Investigator: {pi}</h4>
+    </article>
   );
 }
-
 
 export default Research;

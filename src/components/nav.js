@@ -11,7 +11,7 @@ const Navigation = () => {
 
       <div className="pages">
         <a href="#about">About</a>
-        <a href="#software">Software Projects</a>
+        <a id="software">Software Projects</a>
         <a href="#research">Academic Research</a>
       </div>
 

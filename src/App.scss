@@ -9,6 +9,14 @@ a {
   text-decoration: inherit;
 }
 
+.__react_component_tooltip {
+  width: 30%;
+}
+
+mark {
+  background-color: silver;
+}
+
 nav {
   background-color: silver;
   box-sizing: border-box;
@@ -58,6 +66,10 @@ nav {
     
     > *:hover {
       background-color: #DEDEDE;
+    }
+
+    #software:hover {
+      background-color: inherit;
     }
 
   }
@@ -113,6 +125,22 @@ nav {
               padding: 0.1em 0;
               display: flex;
               justify-content: space-between;
+              transition: all 0.1s ease-in-out;
+            }
+
+            a:hover {
+              font-weight: bolder;
+            }
+          }
+
+          figure {
+            img {
+              max-width: 80%;
+              height: auto;
+            }
+
+            cite {
+              font-size: smaller;
             }
           }
 

@@ -99,6 +99,7 @@ nav {
       padding: 0 15%;
       display: flex;
       justify-content: space-around;
+      scroll-snap-align: center center;
       height: 90vh;
 
       > * {
@@ -110,13 +111,13 @@ nav {
         overflow-y: scroll;
         scroll-behavior: smooth;
         // scroll-snap-type: y mandatory;
-        scroll-padding: 2em;
+        // scroll-padding: 2em;
         scrollbar-width: none;
 
         article {
           min-height: 50vh;
           padding: 0.5em 0;
-          // scroll-snap-align: start end;
+          scroll-snap-align: center center;
 
           header {
             border-bottom: solid silver;
@@ -134,8 +135,10 @@ nav {
           }
 
           figure {
+            max-width: 80%;
+
             img {
-              max-width: 80%;
+              max-width: 100%;
               height: auto;
             }
 

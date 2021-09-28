@@ -14,7 +14,7 @@ const ResearchContainer = data => {
   const researchParsed = researchData.map(item => <Research key={item.pi.split(' ').slice(-1)} {...item} />);
 
   return (
-    <div className="page" id="research">
+    <div className="page" id="research" onSelect={(ev => console.log("target:", ev.currentTarget))}>
       <aside>
         <h2>Research</h2>
         <ul>

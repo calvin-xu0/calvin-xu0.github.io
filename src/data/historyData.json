@@ -25,7 +25,7 @@
       "institution": "Harvard-MIT Health Sciences and Technology",
       "group": {"name": "Karp Lab", "url": "https://karplab.net"},
       "pi": "Dr. Jeffrey Karp",
-      "summaryImage": {"location": "/adhesive-2.png", "caption": "(a) Polymerization and (b) single-emulsion fabrication schema for NanoGlue, with (c) dispersity distributions. Y. Lee et al, DOI: 10.1002/adhm.201500419. © 2015 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim"},
+      "summaryImage": {"location": "/adhesive-2.png", "caption": "(a) Polymerization and (b) single-emulsion fabrication schema for HLAA-based NanoGlue, with (c) dispersity distributions. From Y. Lee et al, DOI: 10.1002/adhm.201500419. © 2015 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim"},
       "summaryText": [
         "Surgical wound closure can be achieved through traditional tools such as staples and sutures, but surgical glues have huge advantages in practicality and post-surgery conditions. These adhesive glues are typically administered to sites using a variety of techniques.",
         "The Karp Lab conducted previous work in tissue-adhesive glues and patches, and techniques involving injectable adhesives provide means of wound closure where bulky alternatives are impractical. One challenge of this technique is the actual ease of injecting a robust adhesive through a small-bore needle.",

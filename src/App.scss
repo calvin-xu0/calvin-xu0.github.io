@@ -67,11 +67,6 @@ nav {
     > *:hover {
       background-color: #DEDEDE;
     }
-
-    #software:hover {
-      background-color: inherit;
-    }
-
   }
 }
 
@@ -128,14 +123,15 @@ nav {
               justify-content: space-between;
               transition: all 0.1s ease-in-out;
             }
-
-            a:hover {
-              font-weight: bolder;
-            }
           }
 
           figure {
-            max-width: 80%;
+            max-width: 100%;
+            padding: 0 5em;
+            box-sizing: content-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
 
             img {
               max-width: 100%;
@@ -159,6 +155,22 @@ nav {
             }
           }
         }
+          
+        
+      }
+    }
+
+    #software {
+
+      a.repo {
+        background-color: #CCC;
+        padding: 0.3em 0.5em;
+        border: thin solid grey;
+        border-radius: 4px;
+        transition: all 0.25s ease-in-out;
+      }
+      a.repo:hover {
+        background-color: #DADADA;
       }
     }
 

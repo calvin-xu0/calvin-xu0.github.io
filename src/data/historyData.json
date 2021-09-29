@@ -1,5 +1,33 @@
 {
   "software": [
+    {
+      "name": "wikiMaps",
+      "links": {"repo": "https://github.com/amaninders/mtProject", "demo": null},
+      "tools": ["PostgreSQL", "Express", "Node.js"],
+      "summaryImage": {"location": "/wikiMaps.png", "caption": "Collaborative mapping with wikiMaps app, currently centred in Dubai"},
+      "summaryText": [
+        "wikiMaps is a web app that allows users to collaboratively create and favourite maps, with each map having markers of their various icon types.",
+        "For this collaborative project, I developed a PostgreSQL/Express-based REST API and contributed the HTML/CSS for the UI layout. This data was fed to the Google Maps JavaScript API to display the maps and markers. Git was used as the source control between collaborators."
+      ]
+    },
+    {
+      "name": "Tweeter",
+      "links": {"repo": "https://github.com/calvin-xu0/tweeter", "demo": null},
+      "tools": ["jQuery", "AJAX", "Node.js"],
+      "summaryImage": {"location": "https://raw.githubusercontent.com/calvin-xu0/tweeter/master/docs/desktop-layout.png", "caption": "Desktop layout of Tweeter"},
+      "summaryText": [
+        "Tweeter is a single-page application intended to mimic a Twitter clone with responsive interaction. In addition to messaging, posted tweets acknowledge user input with shadows and a character counter serves as a reminder to keep messages concise."
+      ]
+    },
+    {
+      "name": "TinyApp",
+      "links": {"repo": "https://github.com/calvin-xu0/tinyapp", "demo": null},
+      "tools": ["Express", "Node.js"],
+      "summaryImage": {"location": "https://raw.githubusercontent.com/calvin-xu0/tinyapp/master/docs/url-edit-page.png", "caption": "Details of a shortened link with a log of link visitors"},
+      "summaryText": [
+        "TinyApp is a link-shortening app offering similar features as services such as TinyURL. The Express server handles most functionality, and logging visitors provide potential analyatics capabilities."
+      ]
+    }
 
   ],
 

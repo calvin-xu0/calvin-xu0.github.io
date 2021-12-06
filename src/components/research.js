@@ -16,16 +16,20 @@ const Research = data => {
       </header>
       <article className="summary">
         <figure>
-          <img src={summaryImage.location} />
+          <img alt={doi} src={summaryImage.location} />
           <figcaption><cite>{summaryImage.caption}</cite></figcaption>
         </figure>
         {summaryTextParsed}
-        <p>
-          For more detailed information, see <a href={publicationURL} className="doi" data-tip data-for={doi}><u>DOI: {doi}</u></a>.
-        </p>
-        <ReactTooltip id={doi} type="light" effect="solid" html={true}>
-          {citation}
-        </ReactTooltip>
+        {publication &&
+        <>
+          <p>
+            For more detailed information, see <a href={publicationURL} className="doi" data-tip data-for={doi}><u>DOI: {doi}</u></a>.
+          </p>
+          <ReactTooltip id={doi} type="light" effect="solid" html={true}>
+            {citation}
+          </ReactTooltip>
+        </>
+        }
       </article>
     </article>
   );

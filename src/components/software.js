@@ -11,7 +11,7 @@ const Software = data => {
       </header>
       <article className="summary">
         <figure>
-          <img src={summaryImage.location} />
+          <img alt={name} src={summaryImage.location} />
           <figcaption><em>{summaryImage.caption}</em></figcaption>
         </figure>
 

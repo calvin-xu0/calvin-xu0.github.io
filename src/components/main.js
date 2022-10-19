@@ -13,7 +13,7 @@ const Main = () => {
         <div className="carousel-viewport">
           <About />
           <SoftwareContainer { ...{softwareData} }/>
-          <ResearchContainer { ...{researchData} }/>
+          <ResearchContainer { ...{researchData} }/>''
         </div>
       </div>
     </main>

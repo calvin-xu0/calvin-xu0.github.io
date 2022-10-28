@@ -1,0 +1,24 @@
+#about {
+  padding: 0 15%;
+  
+  img {
+    max-width: 70%;
+    height: auto;
+
+    aspect-ratio: auto 1 / 1;
+    border-radius: 50%;
+    margin: 3em 0em;
+  }
+
+  .content {
+    #education {
+      li::marker {
+        font-family: FontAwesome;
+        content: '\f19c';
+      }
+      li {
+        padding: 0.2em 0.5em;
+      }
+    }
+  }
+}

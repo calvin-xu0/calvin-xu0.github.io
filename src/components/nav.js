@@ -1,4 +1,7 @@
-const Navigation = () => {
+import { NavLink } from "react-router-dom";
+import './nav.scss'
+
+export default function Navigation() {
   return (
     <nav>
       <div className="personal">
@@ -10,9 +13,9 @@ const Navigation = () => {
       </div>  
 
       <div className="pages">
-        <a href="#about">About</a>
-        <a href="#software">Software Projects</a>
-        <a href="#research">Academic Research</a>
+        <NavLink to="/">About</NavLink>
+        <NavLink to="/software">Software</NavLink>
+        <NavLink to="/research">Academic Research</NavLink>
       </div>
 
       <div className="settings">
@@ -20,6 +23,3 @@ const Navigation = () => {
     </nav>
   );
 }
-
-
-export default Navigation;

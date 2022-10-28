@@ -20,10 +20,10 @@ export default [
           Polymer electrolyte membrane fuel cells (PEMFCs) are particularly attractive due to their relatively low operating temperatures. However, fuel cells currently rely on catalysts made of platinum supported by carbon black. Over time, these expensive catalysts degrade from continued use despite PEMFCs operating at cooler temperatures than other fuel cells.
         </p>
         <p>
-          ANCEL had previously demonstrated the use of sulfur-doped graphene to mitigate this degradation for pure Pt crystals as compared to traditional carbon supports. While the crystal facets of pure Pt can be tailored for maximum effect, literature has also demonstrated that Pt-alloy nanoparticles provide high catalytic capabilities over Pt alone through phenomena such as lattice strain effects.
+          ANCEL had previously demonstrated the use of sulfur-doped graphene to mitigate this degradation for pure Pt crystals as compared to traditional carbon supports. While the crystal facets of pure Pt can be tailored for maximum effect, literature has also demonstrated that Pt-alloy nanoparticles provide higher catalytic capabilities over Pt alone through phenomena such as lattice strain effects.
         </p>
         <p>
-          My research focused on the previously unknown compatibility of sulfur-doped graphene supports with heterogenous Pt nanoparticles as well as the support's overal effects on catalytic performance and catalyst durability for practical long-term use.
+          My research focused on the previously unknown compatibility of sulfur-doped graphene supports with heterogenous Pt nanoparticles as well as the support's overall effects on catalytic performance and catalyst durability for practical long-term use.
         </p>
         <p>
           For more detailed information, see <a href="https://doi.org/10.1039/c6ra19924k" className="doi" data-tip data-for="10.1039/c6ra19924k"><u>doi:10.1039/c6ra19924k</u></a>.
@@ -40,7 +40,7 @@ export default [
   {
     "application": "Medicine",
     "researchTopic": "Medical Adhesives",
-    "institution": "Harvard-MIT Health Sciences and Technology",
+    "institution": "Harvard-MIT Division of Health Sciences and Technology",
     "group": {"name": "Karp Lab", "url": "https://karplab.net"},
     "pi": "Dr. Jeffrey Karp",
     "doi": "10.1002/adhm.201500419",
@@ -54,7 +54,7 @@ export default [
           The Karp Lab conducted previous work in tissue-adhesive glues and patches, and techniques involving injectable adhesives provide means of wound closure where bulky alternatives are impractical. One challenge of this technique is the actual ease of injecting a robust adhesive through a small-bore needle.
         </p>
         <p>
-          I worked closely with Dr. Yuhan Lee (currently Instructor of Medicine at Harvard Medical School) where his postdoctoral research at the lab involved the ability to easily administer a pre-cured adhesive solution through needles and trocars yet still form a glue with strong adhesive properties after curing in surgical sites.
+          I worked closely with Dr. Yuhan Lee (who since became Instructor of Medicine at Harvard Medical School) where his postdoctoral research at the lab involved the ability to easily administer a pre-cured adhesive solution through needles and trocars yet still form a glue with strong adhesive properties after curing in surgical sites.
         </p>
         <p>
           My research contributions in this topic focused on the materials characterization of polymer candidates such as PGSA to understand the change in pre- and post-curing properties of the desired medical adhesive."

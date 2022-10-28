@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 import ReactTooltip from 'react-tooltip';
 
-export default [
+const researchData = [
   {
     "application": "Energy",
     "researchTopic": "Fuel Cell Catalyst Longevity",
@@ -72,3 +72,5 @@ export default [
       </div>
   }
 ]
+
+export default researchData;

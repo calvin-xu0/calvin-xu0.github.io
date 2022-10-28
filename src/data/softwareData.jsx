@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default {
+const softwareData = {
   "experience": [
     {
       "title": "Opener",
@@ -41,3 +41,5 @@ export default {
     }
   ]
 }
+
+export default softwareData;

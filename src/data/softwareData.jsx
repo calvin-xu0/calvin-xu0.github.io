@@ -23,7 +23,7 @@ const softwareData = {
   "projects": [
     {
       "title": "Gameflix",
-      "links": {"site": "https://gameflix-frontend-react.herokuapp.com/", "repository": "https://github.com/sjngplus/Gameflix"},
+      "links": {"site": "https://gameflix-app.netlify.app/", "repository": "https://github.com/calvin-xu0/Gameflix"},
       "tools": ["PostgreSQL", "Express", "React", "Node.js", "Socket.io"],
       "image": {
         "location": "https://github.com/sjngplus/Gameflix/raw/main/frontend-client/docs/gameflix%20preview.gif",

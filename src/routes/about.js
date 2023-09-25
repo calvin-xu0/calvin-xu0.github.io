@@ -11,7 +11,7 @@ export default function About() {
         <section>
           <h1>About Me</h1>
           <p>
-            I'm a Software Engineer in the San Francisco Bay Area. I was recently working at Opener, a Palo Alto aerospace startup manufacturing electric ultralight aircraft.
+            I was recently working as a Software Engineer at Opener, a Palo Alto aviation startup manufacturing electric ultralight aircraft.
           </p>
           <p>
             Previously, my academic background was in materials science and engineering for applications ranging from renewable energy to medicine, with interests extending further beyond. At the Karp Lab, I had the opportunity to collaborate with researchers under the Harvard-MIT Division of Health Sciences and Technology to research polymer nanomaterials for use as biomedical adhesives. Later at the University of Waterloo, I investigated graphene/alloy nanocomposite materials and the ability to increase their catalytic lifetime for energy generation.
